@@ -3,27 +3,27 @@
 echo "===== SELinux Practical ====="
 
 echo "Current SELinux Mode"
-//include the command for current mode
+getenforce
 
 echo
 echo "SELinux Status"
-//include the command for status
+sestatus
 
 echo
 echo "Changing to Permissive Mode"
-//include the command for changing the permissive mode
+getenfoce
 
 echo
 echo "Current Mode"
-//include the command for current mode
+getenforce
 
 echo
 echo "Changing to Enforcing Mode"
-//include the command for enforcing mode
+setenforce 1
 
 echo
 echo "Current Mode"
-//include the command for current mode
+getenforce
 
 echo
 echo "Configuration File"
